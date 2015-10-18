@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+         <Button
+             android:id="@+id/english"
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop= "30dp"
+             android:layout_centerHorizontal="true"
+             android:text="English" />
+         
+
+         <Button
+             android:id="@+id/socialStudies"
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/english"
+             android:layout_below="@+id/english"
+             android:layout_marginTop="30dp"
+             android:text="Social Studies" />
+
+        <Button
+            android:id="@+id/math"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/socialStudies"
+            android:layout_below="@+id/socialStudies"
+            android:layout_marginTop="30dp"
+            android:text="Math" />
+
+        <Button
+            android:id="@+id/science"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/math"
+            android:layout_below="@+id/math"
+            android:layout_marginTop="30dp"
+            android:text="Science" />
+
+        <Button
+            android:id="@+id/language"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/science"
+            android:layout_below="@+id/science"
+            android:layout_marginTop="30dp"
+            android:text="Language" />
+        
+        <Button
+            android:id="@+id/other"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/language"
+            android:layout_below="@+id/language"
+            android:layout_marginTop="30dp"
+            android:text="Other" />
+
+       
+
+    </RelativeLayout>
+

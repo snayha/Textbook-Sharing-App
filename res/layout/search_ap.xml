@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ 
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_gravity="center">
+
+    <Button
+             android:id="@+id/english"
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop= "30dp"
+             android:layout_centerHorizontal="true"
+             android:text="English" />
+
+         <Button
+             android:id="@+id/history"
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/button1"
+             android:layout_below="@+id/button1"
+             android:layout_marginTop="30dp"
+             android:layout_centerHorizontal="true"
+             android:text="History and Social Science" />
+
+        <Button
+            android:id="@+id/math"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="Math and Computer Science" />
+
+        <Button
+            android:id="@+id/science"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="30dp"
+            android:text="Sciences" />
+
+        <Button
+            android:id="@+id/arts"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="30dp"
+            android:text="Art" />
+
+        <Button
+            android:id="@+id/Language"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Languages" />    
+
+</LinearLayout>
+</ScrollView>
+

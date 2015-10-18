@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<Button
+             android:id="@+id/literature"
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop= "30dp"
+             android:layout_centerHorizontal="true"
+             android:text="Literature" />
+
+         <Button
+             android:id="@+id/ushistory"
+             android:layout_width="180dp"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/button1"
+             android:layout_below="@+id/button1"
+             android:layout_marginTop="30dp"
+             android:layout_centerHorizontal="true"
+             android:text="US History" />
+
+        <Button
+            android:id="@+id/worldhistory"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="World History" />
+
+        <Button
+            android:id="@+id/math1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="30dp"
+            android:text="Math 1" />
+
+        <Button
+            android:id="@+id/math2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="30dp"
+            android:text="Math 2" />
+
+        <Button
+            android:id="@+id/biology"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Biology" />
+
+        <Button
+            android:id="@+id/chemistry"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="30dp"
+            android:text="Chemistry" />
+        
+        <Button
+            android:id="@+id/physics"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="30dp"
+            android:text="Physics" />
+        <Button
+            android:id="@+id/language"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="30dp"
+            android:text="Language" />
+</LinearLayout>
